@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@font-face {*/
+/*  font-family: 'Roboto';*/
+/*  font-weight: 900;*/
+/*  src: url('~/assets/fonts/Roboto/Roboto-Black.ttf') format('truetype');*/
+/*}*/
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('~/assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+/*@font-face {*/
+/*  font-family: 'Roboto';*/
+/*  font-weight: 300;*/
+/*  src: url('~/assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*  font-family: 'Roboto';*/
+/*  font-weight: 500;*/
+/*  src: url('~/assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*  font-family: 'Roboto';*/
+/*  font-weight: 400;*/
+/*  src: url('~/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*  font-family: 'Roboto';*/
+/*  font-weight: 100;*/
+/*  src: url('~/assets/fonts/Roboto/Roboto-Thin.ttf') format('truetype');*/
+/*}*/
+
+@layer components {
+  .btn-sp-variant{
+    @apply cursor-pointer bg-white hover:bg-gray-100 border border-dark-purple rounded-sm  px-2 py-1 ml-1 mb-1 text-center flex items-center justify-center;
+    min-width: 50px !important;
+
+  }
+
+  .btn-sp-active{
+    @apply bg-dark-purple text-white hover:bg-dark-purple
+  }
+  .galleryActive{
+
+  }
+
+}
+
+.tabs-boxed{
+  @apply bg-gray-200
+}
+
+.tabs-boxed .tab-active {
+  @apply bg-dark-purple
+}
+
+
+
+.input{
+  @apply border-gray-200 focus:outline-none focus:shadow-none focus:border-dark-purple
+}
+
+.select{
+  @apply border-gray-200 focus:outline-none focus:shadow-none focus:border-dark-purple
+}
+
+.textLinkFooter{
+  @apply text-lg
+}
+.headerText{
+  @apply text-lg
+}

@@ -1,0 +1,116 @@
+.topBarNotify {
+  color: #ff793f !important;
+  background-color: #33d9b2 !important;
+  font-weight: 600;
+}
+
+.headerText {
+  color: #408DA7;
+}
+
+.headerText:hover {
+  color: #00C2A8;
+}
+
+.categoryName{
+  color: #408DA7 !important;
+}
+
+.categoryName:hover{
+  color: #00C2A8 !important;
+}
+
+.numCart {
+  color: #fff !important;
+  background: #0652DD !important;
+}
+
+.product-title {
+  color: #296073 !important;
+}
+
+.product-price {
+  color: #C34A36 !important;
+  font-size: 22px;
+}
+.product_effect:hover{
+  box-shadow: 0 0 1px 3px #33d9b2 !important;
+}
+
+.bgFooter {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) !important;
+}
+
+.textHeadFooter {
+  color: #1e272e !important;
+}
+
+.textFooter {
+  color: #ffa801 !important;
+}
+
+.textLinkFooter {
+  color: #ffa801 !important;
+}
+
+.textLinkFooter:hover {
+  color: #ffc048 !important;
+}
+
+.product-detail-title {
+  color: #006266 !important;
+  font-size: 25px !important;
+}
+
+.product-detail-price {
+  color: #EE5A24 !important;
+  font-size: 35px !important;
+}
+
+.product-detail-border-slider {
+  border-color: #33d9b2 !important;
+}
+
+.btn-sp-variant {
+  background-color: #218c74 !important;
+  color: #ffa801;
+  font-size: 15px;
+  border-width: 2px !important;
+  border-color: #0c2461 !important;
+}
+
+.btn-sp-active {
+  background-color: #fff !important;
+  color: #40407a !important;
+}
+
+.addToCartBtn {
+  background-color: #40407a !important;
+  color: #05c46b !important;
+}
+
+.addToCartBtn:hover {
+  background-color: #706fd3 !important;
+}
+
+
+.option-name {
+  color: #b30442 !important;
+}
+
+.option-value {
+  color: #05c46b !important;
+}
+
+.product-detail-minus-btn {
+  background-color: #706fd3 !important;
+  color: white !important;
+  border-color: #000 !important;
+
+}
+
+.product-detail-plus-btn {
+  background-color: #706fd3 !important;
+  color: white !important;
+  border-color: #000 !important;
+}
